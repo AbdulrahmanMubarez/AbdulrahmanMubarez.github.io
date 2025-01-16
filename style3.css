@@ -1,0 +1,169 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Background */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: #222;
+    line-height: 0.5;
+}
+
+/* Header Styling */
+header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid gold;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+    color: #ccc;
+    font-style: italic;
+}
+
+/* Hero Image (Background) */
+.hero-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+/* Content Section */
+.content {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: #ddd;
+    line-height: 1.8;
+}
+
+/* Interior Section Styling */
+#interior-section {
+    background-image: url('https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/phantom-series-ii-in-detail/page-components/07_IMAGE_CAROUSEL_DESKTOP_04-min.jpg/jcr:content/renditions/cq5dam.web.1920.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+#interior-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#interior-section p {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 20px 0;
+}
+
+/* New Background for Engine Section */
+#engine-section {
+    background-image: url('https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/blue-shadow_cullinan/page-properties/D-Bespoke-Update.jpg/jcr:content/renditions/original');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Text Styling for Engine Section */
+#engine-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#engine-section p {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 20px 0;
+}
+
+#engine-section ul {
+    list-style: none;
+    font-size: 1.1em;
+    margin: 20px 0;
+    padding-left: 0;
+}
+
+#engine-section ul li {
+    margin: 10px 0;
+}
+
+#engine-section h2 {
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1.2em;
+    }
+
+    .content h2 {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 1.1em;
+    }
+
+    #interior-section h2 {
+        font-size: 2.5em;
+    }
+
+    #interior-section p {
+        font-size: 1.1em;
+    }
+
+    #engine-section h1 {
+        font-size: 2.5em;
+    }
+
+    #engine-section h2 {
+        font-size: 2em;
+    }
+
+    #engine-section p {
+        font-size: 1.1em;
+    }
+}
+
+
